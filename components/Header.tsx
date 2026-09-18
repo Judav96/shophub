@@ -15,10 +15,18 @@ export function Header() {
           </h1>
         </Link>
 
-        <div className="text-lg font-semibold">
-          🛒 {cart.length}
-        </div>
+        <Link href="/carrito">
+              🛒 {cart.length}
+            </Link>
+
+            <Link href="/checkout">
+            Checkout
+            </Link>
       </div>
     </header>
   );
 }
+
+
+
+
